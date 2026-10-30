@@ -1,0 +1,199 @@
+{
+  "natura_dati": "Costruzioni analitiche sintetiche, non benchmark di immagini",
+  "dispositivo": "CPU",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "runtime": "Python locale o altro runtime",
+  "scala_knn": {
+    "training": [
+      [
+        0.0,
+        1000.0
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "etichette_training": [
+      0,
+      1
+    ],
+    "query": [
+      [
+        0.9,
+        800.0
+      ]
+    ],
+    "media": [
+      0.5,
+      500.0
+    ],
+    "scala": [
+      0.5,
+      500.0
+    ],
+    "distanze_grezze": [
+      [
+        200.00202498974855,
+        800.00000625
+      ]
+    ],
+    "predizione_grezza": [
+      0
+    ],
+    "distanze_standardizzate": [
+      [
+        1.8439088914585775,
+        1.61245154965971
+      ]
+    ],
+    "predizione_standardizzata": [
+      1
+    ]
+  },
+  "softmax_loss": {
+    "score": [
+      2.0,
+      1.0,
+      0.0
+    ],
+    "probabilita": [
+      0.6652409557748218,
+      0.24472847105479764,
+      0.09003057317038046
+    ],
+    "probabilita_score_traslati": [
+      0.6652409557748218,
+      0.24472847105479764,
+      0.09003057317038046
+    ],
+    "temperature": {
+      "0.5": [
+        0.8668133321973347,
+        0.11731042782619835,
+        0.015876239976466762
+      ],
+      "1.0": [
+        0.6652409557748218,
+        0.24472847105479764,
+        0.09003057317038046
+      ],
+      "2.0": [
+        0.506480391055654,
+        0.3071958857184984,
+        0.1863237232258476
+      ]
+    },
+    "cross_entropy_target0": 0.4076059644443804,
+    "hinge_target0_margine1": 0.0
+  },
+  "metriche": {
+    "matrice": [
+      [
+        8,
+        1,
+        1
+      ],
+      [
+        2,
+        5,
+        3
+      ],
+      [
+        0,
+        2,
+        8
+      ]
+    ],
+    "supporto": [
+      10,
+      10,
+      10
+    ],
+    "precision": [
+      0.8,
+      0.625,
+      0.6666666666666666
+    ],
+    "recall": [
+      0.8,
+      0.5,
+      0.8
+    ],
+    "f1": [
+      0.8,
+      0.5555555555555556,
+      0.7272727272727273
+    ],
+    "precision_definita": [
+      true,
+      true,
+      true
+    ],
+    "recall_definito": [
+      true,
+      true,
+      true
+    ],
+    "accuracy": 0.7,
+    "macro_f1": 0.6942760942760943,
+    "micro_f1": 0.7,
+    "weighted_f1": 0.6942760942760944,
+    "zero_division": 0
+  },
+  "metriche_predizione_costante": {
+    "matrice": [
+      [
+        10,
+        0,
+        0
+      ],
+      [
+        10,
+        0,
+        0
+      ],
+      [
+        10,
+        0,
+        0
+      ]
+    ],
+    "supporto": [
+      10,
+      10,
+      10
+    ],
+    "precision": [
+      0.3333333333333333,
+      0.0,
+      0.0
+    ],
+    "recall": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "f1": [
+      0.5,
+      0.0,
+      0.0
+    ],
+    "precision_definita": [
+      true,
+      false,
+      false
+    ],
+    "recall_definito": [
+      true,
+      true,
+      true
+    ],
+    "accuracy": 0.3333333333333333,
+    "macro_f1": 0.16666666666666666,
+    "micro_f1": 0.3333333333333333,
+    "weighted_f1": 0.16666666666666666,
+    "zero_division": 0
+  }
+}

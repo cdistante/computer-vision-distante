@@ -1,0 +1,28 @@
+# Ambiente Python e file locali
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+.env
+.env.*
+!.env.example
+
+# Output personali; i risultati di riferimento espliciti restano versionabili
+output/
+outputs/
+tmp/
+*.log
+
+# Materiali riservati, pesi e credenziali
+docente/
+soluzioni/
+*_docente.ipynb
+*_soluzioni.ipynb
+*.pem
+*.key
+*.ckpt
+*.pt
+*.pth
+*.safetensors
