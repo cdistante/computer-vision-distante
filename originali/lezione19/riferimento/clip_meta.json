@@ -1,0 +1,10 @@
+{
+  "execution": "inferenza reale locale o nel runtime attuale",
+  "device": "cpu",
+  "dtype": "float32",
+  "threads": 1,
+  "torch": "2.14.0",
+  "load_s": 2.5451786250050645,
+  "inference_s": 0.22721166600240394,
+  "checkpoint_sha256": "40d365715913c9da98579312b702a82c18be219cc2a73407c4526f58eba950af"
+}

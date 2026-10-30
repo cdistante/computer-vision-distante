@@ -1,0 +1,85 @@
+{
+  "capitolo": 9,
+  "natura": "esempi analitici e sintetici",
+  "dispositivo": "CPU",
+  "convoluzione": {
+    "output": [
+      [
+        1.0,
+        8.0
+      ],
+      [
+        -1.0,
+        0.0
+      ]
+    ],
+    "loss": 33.0,
+    "gradiente_kernel": [
+      [
+        17.0,
+        1.0
+      ],
+      [
+        6.0,
+        25.0
+      ]
+    ],
+    "errore_fd": 6.435811883420683e-10
+  },
+  "geometria": {
+    "layer": [
+      [
+        "Conv1",
+        8,
+        3,
+        1
+      ],
+      [
+        "Pool1",
+        4,
+        4,
+        2
+      ],
+      [
+        "Conv2",
+        4,
+        8,
+        2
+      ],
+      [
+        "Pool2",
+        2,
+        10,
+        4
+      ]
+    ],
+    "dilation_2": {
+      "coefficienti_spaziali": 9,
+      "ingombro": 5
+    }
+  },
+  "batchnorm": {
+    "media": 4.0,
+    "varianza_forward": 5.0,
+    "running_mean": 0.4,
+    "running_var": 1.5666666666666667,
+    "train": [
+      -1.3416394448610998,
+      -0.4472131482870333,
+      0.4472131482870333,
+      1.3416394448610998
+    ],
+    "eval": [
+      0.47935974729308406,
+      2.0772255716033645,
+      3.6750913959136446,
+      5.272957220223924
+    ],
+    "gradiente_input_upstream_uno": [
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  }
+}

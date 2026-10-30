@@ -1,0 +1,12 @@
+{
+  "intersezione": 30,
+  "unione": 60,
+  "IoU": 0.5,
+  "Dice": 0.6666666666666666,
+  "candidato_operativo": 1,
+  "IoU_operativa": 0.62,
+  "candidato_oracle": 2,
+  "IoU_oracle": 0.88,
+  "costo_assegnato_cache_s": 1.7,
+  "costo_assegnato_senza_cache_s": 6.5
+}

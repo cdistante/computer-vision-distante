@@ -1,0 +1,174 @@
+{
+  "measured_validation_diagnostics": {
+    "Originale": {
+      "n": 360,
+      "correct": 357,
+      "accuracy": 0.9916666666666667,
+      "clean_correct_to_error": 0,
+      "clean_error_to_correct": 0
+    },
+    "Sfocatura 3×3": {
+      "n": 360,
+      "correct": 333,
+      "accuracy": 0.925,
+      "clean_correct_to_error": 24,
+      "clean_error_to_correct": 0
+    },
+    "Contrasto 0.6": {
+      "n": 360,
+      "correct": 356,
+      "accuracy": 0.9888888888888889,
+      "clean_correct_to_error": 1,
+      "clean_error_to_correct": 0
+    }
+  },
+  "measured_current_runtime_cpu_timing": {
+    "predizione": {
+      "p50_ms": 0.0224585,
+      "p95_ms": 0.025916299999999996,
+      "mean_ms": 0.0220778,
+      "sequential_requests_per_second": 45294.36809827066,
+      "warmup": 5,
+      "repetitions": 30,
+      "batch_size": 1,
+      "dtype": "float64",
+      "device": "CPU"
+    },
+    "preprocessing_e_predizione": {
+      "p50_ms": 0.0204795,
+      "p95_ms": 0.02310015,
+      "mean_ms": 0.020749833333333332,
+      "sequential_requests_per_second": 48193.15817797733,
+      "warmup": 5,
+      "repetitions": 30,
+      "batch_size": 1,
+      "dtype": "float64",
+      "device": "CPU"
+    }
+  },
+  "assigned_analytic_examples": {
+    "groups": {
+      "aggregate": 0.9,
+      "worst": 0.4,
+      "mean_groups": 0.6777777777777778,
+      "equal_mix": 0.6777777777777778
+    },
+    "entropy_nat": [
+      0.6931471805599453,
+      0.3250829733914482
+    ],
+    "probability_comparison": {
+      "A": {
+        "accuracy": 0.6,
+        "NLL_nat": 0.984250346592314,
+        "Brier_sum_classes": 0.66
+      },
+      "B": {
+        "accuracy": 0.6,
+        "NLL_nat": 0.6730116670092564,
+        "Brier_sum_classes": 0.48
+      }
+    },
+    "ECE_separate_example": {
+      "bins": [
+        {
+          "bin": 0,
+          "n": 5,
+          "mean_confidence": 0.6,
+          "accuracy": 0.6,
+          "contribution": 0.0
+        },
+        {
+          "bin": 1,
+          "n": 5,
+          "mean_confidence": 0.9,
+          "accuracy": 0.6,
+          "contribution": 0.15000000000000002
+        }
+      ],
+      "value": 0.15000000000000002
+    },
+    "temperature": {
+      "T": 2,
+      "before": [
+        0.8,
+        0.2
+      ],
+      "after": [
+        0.6666666666666666,
+        0.3333333333333333
+      ],
+      "fitted": false
+    },
+    "selection": [
+      {
+        "threshold": 1.0,
+        "accepted": 0,
+        "errors": 0,
+        "coverage": 0.0,
+        "risk": null
+      },
+      {
+        "threshold": 0.99,
+        "accepted": 1,
+        "errors": 0,
+        "coverage": 0.125,
+        "risk": 0.0
+      },
+      {
+        "threshold": 0.95,
+        "accepted": 2,
+        "errors": 0,
+        "coverage": 0.25,
+        "risk": 0.0
+      },
+      {
+        "threshold": 0.9,
+        "accepted": 3,
+        "errors": 0,
+        "coverage": 0.375,
+        "risk": 0.0
+      },
+      {
+        "threshold": 0.85,
+        "accepted": 4,
+        "errors": 1,
+        "coverage": 0.5,
+        "risk": 0.25
+      },
+      {
+        "threshold": 0.8,
+        "accepted": 5,
+        "errors": 1,
+        "coverage": 0.625,
+        "risk": 0.2
+      },
+      {
+        "threshold": 0.75,
+        "accepted": 6,
+        "errors": 2,
+        "coverage": 0.75,
+        "risk": 0.3333333333333333
+      },
+      {
+        "threshold": 0.7,
+        "accepted": 7,
+        "errors": 3,
+        "coverage": 0.875,
+        "risk": 0.42857142857142855
+      },
+      {
+        "threshold": 0.6,
+        "accepted": 8,
+        "errors": 4,
+        "coverage": 1.0,
+        "risk": 0.5
+      }
+    ],
+    "Pareto_frontier": [
+      "M1",
+      "M2",
+      "M5"
+    ]
+  }
+}

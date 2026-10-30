@@ -1,0 +1,21 @@
+{
+  "G": [
+    [
+      1.0,
+      0.8,
+      0.0
+    ],
+    [
+      0.8,
+      1.0,
+      0.6
+    ],
+    [
+      0.0,
+      0.6,
+      1.0
+    ]
+  ],
+  "errore_rotazione_max": 2.220446049250313e-16,
+  "loss_permutazione_senza_riallineamento": 1.44
+}

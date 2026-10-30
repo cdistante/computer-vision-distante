@@ -1,0 +1,123 @@
+{
+  "versione": "1.0.0",
+  "data": "2026-10-30",
+  "dispositivo": "CPU",
+  "esecuzione_colab_effettuata": false,
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "matplotlib": "3.11.2",
+  "notebook": [
+    {
+      "capitolo": 1,
+      "file": "capitolo01/ComputerVision_Capitolo01.ipynb",
+      "celle_codice": 5,
+      "esito": "PASS",
+      "sha256": "84e29eb251846d6846a53a4b161aff4bbecb0160e06604a1113f9aac41ae9868"
+    },
+    {
+      "capitolo": 2,
+      "file": "capitolo02/ComputerVision_Capitolo02.ipynb",
+      "celle_codice": 5,
+      "esito": "PASS",
+      "sha256": "55e702e2e0303e0a16247c9f55185bb84873b1d6dd702b86659d091f4eccc3d9"
+    },
+    {
+      "capitolo": 3,
+      "file": "capitolo03/ComputerVision_Capitolo03.ipynb",
+      "celle_codice": 5,
+      "esito": "PASS",
+      "sha256": "c35af7c2218f3d703e8dfb9b1d1c743dfb78d04743ed94e711b9b261fa2730af"
+    },
+    {
+      "capitolo": 4,
+      "file": "capitolo04/ComputerVision_Capitolo04.ipynb",
+      "celle_codice": 6,
+      "esito": "PASS",
+      "sha256": "db5b36d0b397c182fb799a4a2b58cc52e6a4cb8f6507465d27fef1dd1528b9c2"
+    },
+    {
+      "capitolo": 5,
+      "file": "capitolo05/ComputerVision_Capitolo05.ipynb",
+      "celle_codice": 6,
+      "esito": "PASS",
+      "sha256": "987cdbd1aa6fe2b55ba7f45e968ebedada21d912a7585eadf2ccaf54fc4ada63"
+    },
+    {
+      "capitolo": 6,
+      "file": "capitolo06/ComputerVision_Capitolo06.ipynb",
+      "celle_codice": 5,
+      "esito": "PASS",
+      "sha256": "fdbef0725221ca923bf1c8060996bd9810d4f278e20fe6bb48b22c93bae19472"
+    },
+    {
+      "capitolo": 7,
+      "file": "capitolo07/07_feature_apprendimento.ipynb",
+      "celle_codice": 7,
+      "esito": "PASS",
+      "sha256": "2d3f094fcc88b2602d1a5824ba9fbd543bdb493f9f3512238c8375333106ccf0"
+    },
+    {
+      "capitolo": 8,
+      "file": "capitolo08/08_reti_e_ottimizzazione.ipynb",
+      "celle_codice": 5,
+      "esito": "PASS",
+      "sha256": "1aa0e827c4a1d02b3bd80ed2dcb69996a1c49027dc30f2d0d206b39615d91f9b"
+    },
+    {
+      "capitolo": 9,
+      "file": "capitolo09/09_convoluzioni_e_normalizzazione.ipynb",
+      "celle_codice": 5,
+      "esito": "PASS",
+      "sha256": "1107eda771b9d222302a96e092ef7b41bc161f9c0625059f2b2a29edda1aa492"
+    },
+    {
+      "capitolo": 10,
+      "file": "capitolo10/10_architetture_e_trasferimento.ipynb",
+      "celle_codice": 5,
+      "esito": "PASS",
+      "sha256": "5e90057c5181e08da821542e3fecfdf90d22f732d92c910435d51657ba7ffa76"
+    },
+    {
+      "capitolo": 11,
+      "file": "capitolo11/capitolo11.ipynb",
+      "celle_codice": 4,
+      "esito": "PASS",
+      "sha256": "f8150722239e0d886d2062dbf143c896f9678abd354d4c8530b25edd76857b26"
+    },
+    {
+      "capitolo": 12,
+      "file": "capitolo12/capitolo12.ipynb",
+      "celle_codice": 4,
+      "esito": "PASS",
+      "sha256": "6501b99f85352d0d9dc26f17fd0ae658ea6d1636389fea546c472693a87c3611"
+    },
+    {
+      "capitolo": 13,
+      "file": "capitolo13/capitolo13.ipynb",
+      "celle_codice": 4,
+      "esito": "PASS",
+      "sha256": "3856a608c4a3dcc9aea8a41047d956f90bdc8839a161c993032569f5c3536c2c"
+    },
+    {
+      "capitolo": 14,
+      "file": "capitolo14/capitolo14.ipynb",
+      "celle_codice": 4,
+      "esito": "PASS",
+      "sha256": "2168162c7dad55e9e386ee4de2cde621c33d45d30a2ec2f3c9b08ab5d4bf8592"
+    },
+    {
+      "capitolo": 15,
+      "file": "capitolo15/capitolo15.ipynb",
+      "celle_codice": 4,
+      "esito": "PASS",
+      "sha256": "81a218b97c0b1ed08ccd71e6eddf3419b70b9ca4eda433731b7dc957115e3780"
+    },
+    {
+      "capitolo": 16,
+      "file": "capitolo16/16_affidabilita_e_valutazione.ipynb",
+      "celle_codice": 5,
+      "esito": "PASS",
+      "sha256": "cd175394885800129dfbd1c629c3f5debc87f1a44423b4ed2eedfba04a0d451e"
+    }
+  ]
+}

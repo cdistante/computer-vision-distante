@@ -1,0 +1,71 @@
+{
+  "dataset": "Middlebury 2014 Adirondack-perfect",
+  "width": 720,
+  "height": 497,
+  "scale": 0.25,
+  "K0": [
+    [
+      1040.30525,
+      0.0,
+      361.01925
+    ],
+    [
+      0.0,
+      1040.30525,
+      245.7965
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "K1": [
+    [
+      1040.30525,
+      0.0,
+      413.284
+    ],
+    [
+      0.0,
+      1040.30525,
+      245.7965
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "doffs": 52.26475,
+  "baseline_m": 0.17625200000000002,
+  "ndisp": 80,
+  "S": [
+    [
+      0.25,
+      0.0,
+      -0.375
+    ],
+    [
+      0.0,
+      0.25,
+      -0.375
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "resize": "INTER_AREA; coordinate pixel-center p_out=S p_in",
+  "ground_truth_sampling": "nearest sample at source center floor((u+0.5)/s), followed by disparity*s; no averaging across depth boundaries",
+  "distortion": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "already_rectified": true,
+  "seed": 8
+}

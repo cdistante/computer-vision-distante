@@ -1,0 +1,17 @@
+{
+  "autovalori_rampa": [
+    0.0,
+    1.0
+  ],
+  "autovalori_corner": [
+    0.022727272727272728,
+    0.026859504132231406
+  ],
+  "scala_stimata_blob_3.0": 2.994594594594595,
+  "scala_stimata_blob_6.0": 6.007207207207208,
+  "scala_stimata_blob_12.0": 11.992792792792793,
+  "ratio_ambiguo": 0.8,
+  "accettato_ambiguo": false,
+  "ratio_distinto": 0.22222222222222224,
+  "accettato_distinto": true
+}

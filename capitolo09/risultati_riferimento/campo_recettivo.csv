@@ -1,0 +1,5 @@
+layer,lato_output,campo_recettivo,salto
+Conv1,8,3,1
+Pool1,4,4,2
+Conv2,4,8,2
+Pool2,2,10,4

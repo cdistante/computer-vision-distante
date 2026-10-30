@@ -1,0 +1,706 @@
+{
+  "course": "Computer Vision",
+  "lesson": 18,
+  "date": "2026-11-19",
+  "seed": 20261119,
+  "device": "cpu",
+  "threads": 1,
+  "torch": "2.14.0",
+  "torchvision": "0.29.0",
+  "python": "3.12.14",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "sam_commit": "2b90b9f5ceec907a1c18123530e92e794ad901a4",
+  "sam_sha256": "7402e0d864fa82708a20fbd15bc84245c2f26dff0eb43a4b5b93452deb34be69",
+  "lraspp_sha256": "d234d4eae9d55d5f76de18b77cf0dc62c66fe5c5482758209d00f950c92bb280",
+  "dinov3_status": "not_executed_no_authorized_checkpoint",
+  "protocol": "six fixed PennFudan images; largest instance for prompts; GT-assisted coordinates; LRASPP semantic person versus SAM union from all GT boxes; no local training",
+  "records": [
+    {
+      "name": "PennPed00014",
+      "shape": [
+        368,
+        542,
+        3
+      ],
+      "target_id": 2,
+      "instances": 4,
+      "box": [
+        208.0,
+        68.0,
+        312.0,
+        337.0
+      ],
+      "point": [
+        263.0,
+        194.0
+      ],
+      "loose_box": [
+        182.0,
+        0.75,
+        338.0,
+        368.0
+      ],
+      "prompts": {
+        "point": {
+          "score": 0.9285085797309875,
+          "decoder_seconds": 0.0373030830087373,
+          "candidate_scores": [
+            0.9285085797309875,
+            0.38498347997665405,
+            0.442236989736557
+          ],
+          "iou": 0.9537913938854636,
+          "dice": 0.9763492631510459,
+          "intersection": 15006,
+          "union": 15733,
+          "pred_area": 15371,
+          "gt_area": 15368
+        },
+        "box": {
+          "score": 0.9572891592979431,
+          "decoder_seconds": 0.03577883300022222,
+          "candidate_scores": [
+            0.9572891592979431
+          ],
+          "iou": 0.9587208561600203,
+          "dice": 0.9789254585664108,
+          "intersection": 15050,
+          "union": 15698,
+          "pred_area": 15380,
+          "gt_area": 15368
+        },
+        "loose_box": {
+          "score": 0.3655203878879547,
+          "decoder_seconds": 0.03635816699534189,
+          "candidate_scores": [
+            0.3655203878879547
+          ],
+          "iou": 0.00010973936899862826,
+          "dice": 0.00021945465518187303,
+          "intersection": 2,
+          "union": 18225,
+          "pred_area": 2859,
+          "gt_area": 15368
+        },
+        "corrected": {
+          "score": 0.9213066697120667,
+          "decoder_seconds": 0.03467349999118596,
+          "iou": 0.9273722403296231,
+          "dice": 0.9623177307680035,
+          "intersection": 15080,
+          "union": 16261,
+          "pred_area": 15973,
+          "gt_area": 15368
+        }
+      },
+      "sam_encoder_seconds": 1.0964126659964677,
+      "negative_point": [
+        225.0,
+        32.0
+      ],
+      "negative_from_false_positive": true,
+      "sam_union_decoder_seconds": 0.13316879200283438,
+      "point_candidate_ious": [
+        0.9537913938854636,
+        0.30661114003123374,
+        0.4268458990843561
+      ],
+      "lraspp_seconds": 0.2670322919875616,
+      "semantic": {
+        "lraspp": {
+          "iou": 0.8634995877988458,
+          "dice": 0.9267505004589844,
+          "intersection": 41897,
+          "union": 48520,
+          "pred_area": 46246,
+          "gt_area": 44171
+        },
+        "sam_union": {
+          "iou": 0.949339498018494,
+          "dice": 0.9740114525802189,
+          "intersection": 43119,
+          "union": 45420,
+          "pred_area": 44368,
+          "gt_area": 44171
+        }
+      }
+    },
+    {
+      "name": "PennPed00022",
+      "shape": [
+        486,
+        925,
+        3
+      ],
+      "target_id": 1,
+      "instances": 5,
+      "box": [
+        29.0,
+        117.0,
+        167.0,
+        413.0
+      ],
+      "point": [
+        113.0,
+        259.0
+      ],
+      "loose_box": [
+        0.0,
+        43.0,
+        201.5,
+        486.0
+      ],
+      "prompts": {
+        "point": {
+          "score": 0.8446186780929565,
+          "decoder_seconds": 0.039594415997271426,
+          "candidate_scores": [
+            0.8446186780929565,
+            0.3509782552719116,
+            0.3895202577114105
+          ],
+          "iou": 0.7711895015651337,
+          "dice": 0.8708153485368589,
+          "intersection": 12811,
+          "union": 16612,
+          "pred_area": 13492,
+          "gt_area": 15931
+        },
+        "box": {
+          "score": 0.8900361061096191,
+          "decoder_seconds": 0.040980416000820696,
+          "candidate_scores": [
+            0.8900361061096191
+          ],
+          "iou": 0.7680328363614414,
+          "dice": 0.8687992898842648,
+          "intersection": 12724,
+          "union": 16567,
+          "pred_area": 13360,
+          "gt_area": 15931
+        },
+        "loose_box": {
+          "score": 0.40427300333976746,
+          "decoder_seconds": 0.039393125000060536,
+          "candidate_scores": [
+            0.40427300333976746
+          ],
+          "iou": 0.30788763688303444,
+          "dice": 0.4708166484649921,
+          "intersection": 5820,
+          "union": 18903,
+          "pred_area": 8792,
+          "gt_area": 15931
+        },
+        "corrected": {
+          "score": 0.3910086750984192,
+          "decoder_seconds": 0.044027457988704555,
+          "iou": 0.13095697206765466,
+          "dice": 0.23158612626656275,
+          "intersection": 2377,
+          "union": 18151,
+          "pred_area": 4597,
+          "gt_area": 15931
+        }
+      },
+      "sam_encoder_seconds": 1.0698372089973418,
+      "negative_point": [
+        136.0,
+        287.0
+      ],
+      "negative_from_false_positive": true,
+      "sam_union_decoder_seconds": 0.206975249981042,
+      "point_candidate_ious": [
+        0.7711895015651337,
+        0.24527478011353004,
+        0.3104262458058904
+      ],
+      "lraspp_seconds": 0.36604887500288896,
+      "semantic": {
+        "lraspp": {
+          "iou": 0.6646005173507736,
+          "dice": 0.7985105260071542,
+          "intersection": 54468,
+          "union": 81956,
+          "pred_area": 72652,
+          "gt_area": 63772
+        },
+        "sam_union": {
+          "iou": 0.8580652787422982,
+          "dice": 0.9236115528977671,
+          "intersection": 58073,
+          "union": 67679,
+          "pred_area": 61980,
+          "gt_area": 63772
+        }
+      }
+    },
+    {
+      "name": "PennPed00035",
+      "shape": [
+        353,
+        623,
+        3
+      ],
+      "target_id": 2,
+      "instances": 3,
+      "box": [
+        366.0,
+        53.0,
+        541.0,
+        333.0
+      ],
+      "point": [
+        470.0,
+        208.0
+      ],
+      "loose_box": [
+        322.25,
+        0.0,
+        584.75,
+        353.0
+      ],
+      "prompts": {
+        "point": {
+          "score": 0.942885160446167,
+          "decoder_seconds": 0.03764645800401922,
+          "candidate_scores": [
+            0.942885160446167,
+            0.31374847888946533,
+            0.49525871872901917
+          ],
+          "iou": 0.9597262115748946,
+          "dice": 0.9794492780740325,
+          "intersection": 15704,
+          "union": 16363,
+          "pred_area": 16191,
+          "gt_area": 15876
+        },
+        "box": {
+          "score": 0.9625931978225708,
+          "decoder_seconds": 0.038969832996372133,
+          "candidate_scores": [
+            0.9625931978225708
+          ],
+          "iou": 0.9552365376461324,
+          "dice": 0.9771058582979646,
+          "intersection": 15770,
+          "union": 16509,
+          "pred_area": 16403,
+          "gt_area": 15876
+        },
+        "loose_box": {
+          "score": 0.7164639830589294,
+          "decoder_seconds": 0.06680433300789446,
+          "candidate_scores": [
+            0.7164639830589294
+          ],
+          "iou": 0.0001937984496124031,
+          "dice": 0.00038752179810114316,
+          "intersection": 9,
+          "union": 46440,
+          "pred_area": 30573,
+          "gt_area": 15876
+        },
+        "corrected": {
+          "score": 0.704714834690094,
+          "decoder_seconds": 0.042751374989165924,
+          "iou": 0.7597446032228641,
+          "dice": 0.8634714399253602,
+          "intersection": 12494,
+          "union": 16445,
+          "pred_area": 13063,
+          "gt_area": 15876
+        }
+      },
+      "sam_encoder_seconds": 1.1716915419965517,
+      "negative_point": [
+        450.0,
+        158.0
+      ],
+      "negative_from_false_positive": true,
+      "sam_union_decoder_seconds": 0.15224937500897795,
+      "point_candidate_ious": [
+        0.9597262115748946,
+        0.2937067337948395,
+        0.4970480392766143
+      ],
+      "lraspp_seconds": 0.31027337499835994,
+      "semantic": {
+        "lraspp": {
+          "iou": 0.7430238190510288,
+          "dice": 0.8525687496979363,
+          "intersection": 35281,
+          "union": 47483,
+          "pred_area": 40652,
+          "gt_area": 42112
+        },
+        "sam_union": {
+          "iou": 0.9375460914454278,
+          "dice": 0.9677664914242216,
+          "intersection": 40682,
+          "union": 43392,
+          "pred_area": 41962,
+          "gt_area": 42112
+        }
+      }
+    },
+    {
+      "name": "FudanPed00042",
+      "shape": [
+        547,
+        588,
+        3
+      ],
+      "target_id": 2,
+      "instances": 2,
+      "box": [
+        287.0,
+        155.0,
+        392.0,
+        449.0
+      ],
+      "point": [
+        339.0,
+        291.0
+      ],
+      "loose_box": [
+        260.75,
+        81.5,
+        418.25,
+        522.5
+      ],
+      "prompts": {
+        "point": {
+          "score": 0.9073967337608337,
+          "decoder_seconds": 0.04235912500007544,
+          "candidate_scores": [
+            0.9073967337608337,
+            0.45231184363365173,
+            0.4491470456123352
+          ],
+          "iou": 0.9011422761796544,
+          "dice": 0.9480008808078266,
+          "intersection": 15068,
+          "union": 16721,
+          "pred_area": 15646,
+          "gt_area": 16143
+        },
+        "box": {
+          "score": 0.9209339618682861,
+          "decoder_seconds": 0.04253933300788049,
+          "candidate_scores": [
+            0.9209339618682861
+          ],
+          "iou": 0.9016333938294011,
+          "dice": 0.9482725711013552,
+          "intersection": 14904,
+          "union": 16530,
+          "pred_area": 15291,
+          "gt_area": 16143
+        },
+        "loose_box": {
+          "score": 0.44000908732414246,
+          "decoder_seconds": 0.04579445900162682,
+          "candidate_scores": [
+            0.44000908732414246
+          ],
+          "iou": 0.0030875192969956064,
+          "dice": 0.006156031727240441,
+          "intersection": 52,
+          "union": 16842,
+          "pred_area": 751,
+          "gt_area": 16143
+        },
+        "corrected": {
+          "score": 0.8592637777328491,
+          "decoder_seconds": 0.04134708299534395,
+          "iou": 0.8910149270935392,
+          "dice": 0.9423668891530279,
+          "intersection": 15460,
+          "union": 17351,
+          "pred_area": 16668,
+          "gt_area": 16143
+        }
+      },
+      "sam_encoder_seconds": 1.8696657920081634,
+      "negative_point": [
+        370.0,
+        120.0
+      ],
+      "negative_from_false_positive": true,
+      "sam_union_decoder_seconds": 0.0815897090069484,
+      "point_candidate_ious": [
+        0.9011422761796544,
+        0.43637376927363924,
+        0.4498762376237624
+      ],
+      "lraspp_seconds": 0.2262621669942746,
+      "semantic": {
+        "lraspp": {
+          "iou": 0.35284309850805257,
+          "dice": 0.5216319599769941,
+          "intersection": 28569,
+          "union": 80968,
+          "pred_area": 78494,
+          "gt_area": 31043
+        },
+        "sam_union": {
+          "iou": 0.9249505634200696,
+          "dice": 0.9610122784417956,
+          "intersection": 29468,
+          "union": 31859,
+          "pred_area": 30284,
+          "gt_area": 31043
+        }
+      }
+    },
+    {
+      "name": "FudanPed00058",
+      "shape": [
+        479,
+        522,
+        3
+      ],
+      "target_id": 1,
+      "instances": 8,
+      "box": [
+        144.0,
+        91.0,
+        261.0,
+        463.0
+      ],
+      "point": [
+        204.0,
+        270.0
+      ],
+      "loose_box": [
+        114.75,
+        0.0,
+        290.25,
+        479.0
+      ],
+      "prompts": {
+        "point": {
+          "score": 0.9395771026611328,
+          "decoder_seconds": 0.04605412499222439,
+          "candidate_scores": [
+            0.9395771026611328,
+            0.2946164309978485,
+            0.460908979177475
+          ],
+          "iou": 0.9199862111230275,
+          "dice": 0.958325852335069,
+          "intersection": 24019,
+          "union": 26108,
+          "pred_area": 24504,
+          "gt_area": 25623
+        },
+        "box": {
+          "score": 0.9629322290420532,
+          "decoder_seconds": 0.04894112500187475,
+          "candidate_scores": [
+            0.9629322290420532
+          ],
+          "iou": 0.9200922013061852,
+          "dice": 0.9583833533413365,
+          "intersection": 23950,
+          "union": 26030,
+          "pred_area": 24357,
+          "gt_area": 25623
+        },
+        "loose_box": {
+          "score": 0.9217599034309387,
+          "decoder_seconds": 0.04402433300856501,
+          "candidate_scores": [
+            0.9217599034309387
+          ],
+          "iou": 0.9444739235900546,
+          "dice": 0.9714441650585736,
+          "intersection": 24919,
+          "union": 26384,
+          "pred_area": 25680,
+          "gt_area": 25623
+        },
+        "corrected": {
+          "score": 0.9356021285057068,
+          "decoder_seconds": 0.04259758300031535,
+          "iou": 0.9259757221880762,
+          "dice": 0.9615653110477292,
+          "intersection": 24105,
+          "union": 26032,
+          "pred_area": 24514,
+          "gt_area": 25623
+        }
+      },
+      "sam_encoder_seconds": 1.8872002080024686,
+      "negative_point": [
+        203.0,
+        321.0
+      ],
+      "negative_from_false_positive": true,
+      "sam_union_decoder_seconds": 0.36388491600519046,
+      "point_candidate_ious": [
+        0.9199862111230275,
+        0.21312370772051653,
+        0.40699787357432826
+      ],
+      "lraspp_seconds": 0.21802754199597985,
+      "semantic": {
+        "lraspp": {
+          "iou": 0.7708037777147257,
+          "dice": 0.8705693848354793,
+          "intersection": 38033,
+          "union": 49342,
+          "pred_area": 45542,
+          "gt_area": 41833
+        },
+        "sam_union": {
+          "iou": 0.9164560452185102,
+          "dice": 0.9564070592748897,
+          "intersection": 39886,
+          "union": 43522,
+          "pred_area": 41575,
+          "gt_area": 41833
+        }
+      }
+    },
+    {
+      "name": "FudanPed00063",
+      "shape": [
+        359,
+        486,
+        3
+      ],
+      "target_id": 2,
+      "instances": 5,
+      "box": [
+        155.0,
+        41.0,
+        262.0,
+        329.0
+      ],
+      "point": [
+        206.0,
+        177.0
+      ],
+      "loose_box": [
+        128.25,
+        0.0,
+        288.75,
+        359.0
+      ],
+      "prompts": {
+        "point": {
+          "score": 0.9200558066368103,
+          "decoder_seconds": 0.042589499993482605,
+          "candidate_scores": [
+            0.9200558066368103,
+            0.4703569710254669,
+            0.48501309752464294
+          ],
+          "iou": 0.9738712481464438,
+          "dice": 0.9867626868378105,
+          "intersection": 19046,
+          "union": 19557,
+          "pred_area": 19196,
+          "gt_area": 19407
+        },
+        "box": {
+          "score": 0.9458870887756348,
+          "decoder_seconds": 0.040343665998079814,
+          "candidate_scores": [
+            0.9458870887756348
+          ],
+          "iou": 0.967077978598126,
+          "dice": 0.9832634894192978,
+          "intersection": 18888,
+          "union": 19531,
+          "pred_area": 19012,
+          "gt_area": 19407
+        },
+        "loose_box": {
+          "score": 0.7428886294364929,
+          "decoder_seconds": 0.039855041992268525,
+          "candidate_scores": [
+            0.7428886294364929
+          ],
+          "iou": 0.9338495461771191,
+          "dice": 0.9657933814170556,
+          "intersection": 18211,
+          "union": 19501,
+          "pred_area": 18305,
+          "gt_area": 19407
+        },
+        "corrected": {
+          "score": 0.8812968134880066,
+          "decoder_seconds": 0.04608233299222775,
+          "iou": 0.9264173087717508,
+          "dice": 0.9618033481669845,
+          "intersection": 18155,
+          "union": 19597,
+          "pred_area": 18345,
+          "gt_area": 19407
+        }
+      },
+      "sam_encoder_seconds": 1.4410769999958575,
+      "negative_point": [
+        180.0,
+        244.0
+      ],
+      "negative_from_false_positive": true,
+      "sam_union_decoder_seconds": 0.2182900819752831,
+      "point_candidate_ious": [
+        0.9738712481464438,
+        0.4314856789614671,
+        0.4905068175971186
+      ],
+      "lraspp_seconds": 0.2510296669934178,
+      "semantic": {
+        "lraspp": {
+          "iou": 0.7917864276318994,
+          "dice": 0.8837955410549212,
+          "intersection": 32506,
+          "union": 41054,
+          "pred_area": 39617,
+          "gt_area": 33943
+        },
+        "sam_union": {
+          "iou": 0.9613900733907695,
+          "dice": 0.9803150188567625,
+          "intersection": 33142,
+          "union": 34473,
+          "pred_area": 33672,
+          "gt_area": 33943
+        }
+      }
+    }
+  ],
+  "cost": {
+    "device": "cpu",
+    "sam_encoder_seconds": [
+      1.0964126659964677,
+      1.0698372089973418,
+      1.1716915419965517,
+      1.8696657920081634,
+      1.8872002080024686,
+      1.4410769999958575
+    ],
+    "sam_box_decoders_seconds": [
+      0.13316879200283438,
+      0.206975249981042,
+      0.15224937500897795,
+      0.0815897090069484,
+      0.36388491600519046,
+      0.2182900819752831
+    ],
+    "lraspp_total_seconds": [
+      0.2670322919875616,
+      0.36604887500288896,
+      0.31027337499835994,
+      0.2262621669942746,
+      0.21802754199597985,
+      0.2510296669934178
+    ]
+  }
+}

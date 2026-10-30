@@ -1,0 +1,20 @@
+{
+  "errore_massimo_K_pixel": 1.3642420526593924e-12,
+  "valori_singolari_calibrazione": [
+    0.6280725994074553,
+    0.5425443331665619,
+    0.1131353956437314,
+    0.0004004759139919987,
+    0.00014345847924839087,
+    6.305373032962486e-22
+  ],
+  "errore_inversione_normalizzato": 7.850462293418876e-17,
+  "errore_inversione_posa_m": 1.942890293094024e-16,
+  "centro_camera_mondo_m": [
+    -0.47648652406726655,
+    -0.21407040508602115,
+    -1.9338134486161276
+  ],
+  "norma_centro_nel_frame_camera_m": 2.242025235105681e-16,
+  "profondita_minima_m": 2.0
+}

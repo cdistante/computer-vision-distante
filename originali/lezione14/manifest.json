@@ -1,0 +1,21 @@
+{
+  "data_sha256": "972401a5680cf0a1c5ef60295fb915f4efbd51d7a39b35c0cfa39d73cc33ca1e",
+  "weights": {
+    "resnet18": {
+      "file": "resnet18-f37072fd.pth",
+      "sha256": "f37072fd47e89c5e827621c5baffa7500819f7896bbacec160b1a16c560e07ec"
+    },
+    "deit_tiny": {
+      "file": "deit_tiny_patch16_224-a1311bcf.pth",
+      "sha256": "a1311bcf4f24e3c95adaa75535db67bc4412d95535b98f7c1dfd1164dda41c97"
+    }
+  },
+  "reference_files": {
+    "confronto.csv": "d6f05dd5c43279cf25909c75002ec7c5b03b8322ee4f7349936659b28aeeb1f8",
+    "metriche_finali.json": "f9c238427cdf2155ce2ff84097be9105a1f14301ec170d39b002056cc7c6d24b",
+    "ft_delta_deit_tiny.pt": "5dbdb266e65c2adb16e787190f37f5e887ecef937c6cc3da03031de5dc4002fe",
+    "ft_delta_resnet18.pt": "28aaa353832bb6149d712ee8bf2c56c52153031a7b0e8e4832453f31692c8537",
+    "lp_head_resnet18.pt": "e5e0c53a6d61113434361656a3e441b77c95e3359c027024f22dd01d86d3af73",
+    "lp_head_deit_tiny.pt": "1f85879e8a74680ae5e497fca3faaeff140867668b476b32a8518da62084501c"
+  }
+}

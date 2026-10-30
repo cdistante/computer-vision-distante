@@ -1,0 +1,14 @@
+{
+  "provenance": {
+    "data_archive_sha256": "9095a9613c95586f1c7f2a327d454833d16e0f5e17e5f83d35027ffd315b48e2",
+    "weights_sha256": "907ea3f91ff92242bc1baea8049276a3e76bca48ce7560bd268cc029f37977b5",
+    "data_url": "https://www.cis.upenn.edu/~jshi/ped_html/PennFudanPed.zip",
+    "weights_url": "https://download.pytorch.org/models/fasterrcnn_mobilenet_v3_large_320_fpn-907ea3f9.pth"
+  },
+  "reference_files": {
+    "predictor_epoch3.pt": "3fd9b3d58821cbb1b286bbb64ad7845b39d6be2e40eac70e4cd54edca1bbb148",
+    "metriche_finali.json": "2231fb19ef3bea921d526190b7683b82dfef428633fd56c56b84a6f9cc942d55",
+    "predictions.pt": "91208199d6e9b831466c2f697f4da4c4b17f88f29e318d9faca040d4f809e593",
+    "predictor_epoch0.pt": "958f4aa3f2888334c1ec51a979eb098bb416862b29ca78cfe9f7b8a98fce10d6"
+  }
+}

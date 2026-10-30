@@ -1,0 +1,28 @@
+{
+  "origin": "training e metriche CPU importati; inferenza singola nuova",
+  "reference_environment": {
+    "torch": "2.14.0",
+    "torchvision": "0.29.0",
+    "numpy": "2.3.5",
+    "python": "3.12.14",
+    "device": "cpu",
+    "processor": "arm",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "threads": 1,
+    "gpu": null
+  },
+  "current_environment": {
+    "torch": "2.14.0",
+    "torchvision": "0.29.0",
+    "numpy": "2.3.5",
+    "python": "3.12.14",
+    "device": "cpu",
+    "processor": "arm",
+    "platform": "macOS-26.6.2-arm64-arm-64bit",
+    "threads": 1,
+    "gpu": null
+  },
+  "same_shapes": true,
+  "max_error": 0.0,
+  "reference_AP": 0.6754252858952285
+}

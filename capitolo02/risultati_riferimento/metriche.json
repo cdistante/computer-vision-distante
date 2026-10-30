@@ -1,0 +1,6 @@
+{
+  "errore_antisimmetria_interno": 0.0,
+  "errore_L1_media": 4.2,
+  "errore_L1_mediana": 0.0,
+  "errore_ricostruzione": 1.1102230246251565e-16
+}

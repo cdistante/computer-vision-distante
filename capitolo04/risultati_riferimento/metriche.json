@@ -1,0 +1,10 @@
+{
+  "mediana_DLT_esatto_pixel": 1.5888218580782548e-14,
+  "mediana_test_globale_pixel": 559.9980738364352,
+  "mediana_test_robusta_pixel": 1.4484830223734477e-14,
+  "inlier_selezionati": 45,
+  "precisione_consenso": 1.0,
+  "richiamo_consenso": 1.0,
+  "somma_pesi_bilineari": 1.0,
+  "interpolazione_bilineare": 48.75
+}

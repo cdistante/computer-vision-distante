@@ -1,13 +1,13 @@
 cff-version: 1.2.0
 message: "Per citare i notebook del libro, usare questi metadati e indicare il capitolo e la versione impiegata."
 type: software
-title: "Computer Vision: notebook di Geometria, apprendimento e modelli fondazionali"
+title: "Computer Vision: laboratori e notebook di geometria, apprendimento e modelli fondazionali"
 authors:
   - family-names: Distante
     given-names: Arcangelo
   - family-names: Distante
     given-names: Cosimo
-version: 0.1.0
+version: 1.0.0
 date-released: 2026-10-30
 url: "https://github.com/cdistante/computer-vision-distante"
 repository-code: "https://github.com/cdistante/computer-vision-distante"

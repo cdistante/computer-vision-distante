@@ -1,0 +1,5 @@
+gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+smooth = cv2.GaussianBlur(gray, (0, 0), sigmaX=1.2)
+Ix = cv2.Sobel(smooth, cv2.CV_32F, 1, 0, ksize=3)
+Iy = cv2.Sobel(smooth, cv2.CV_32F, 0, 1, ksize=3)
+magnitude = cv2.magnitude(Ix, Iy)

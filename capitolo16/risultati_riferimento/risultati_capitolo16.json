@@ -1,0 +1,112 @@
+{
+  "capitolo": 16,
+  "natura": "esempi analitici e sintetici",
+  "dispositivo": "CPU",
+  "gruppi": {
+    "numerosita": [
+      90,
+      10
+    ],
+    "corretti": [
+      86,
+      4
+    ],
+    "accuracy": [
+      0.9555555555555556,
+      0.4
+    ],
+    "aggregata": 0.9,
+    "media_gruppi": 0.6777777777777778,
+    "worst_group": 0.4,
+    "mix_meta_meta": 0.6777777777777778
+  },
+  "qualita_probabilistica": {
+    "A": {
+      "accuracy": 0.6,
+      "nll": 0.984250346592314,
+      "brier": 0.66,
+      "ece_un_bin": 0.30000000000000004
+    },
+    "B": {
+      "accuracy": 0.6,
+      "nll": 0.6730116670092564,
+      "brier": 0.48,
+      "ece_un_bin": 0.0
+    },
+    "temperatura": {
+      "0.5": [
+        0.9411764705882353,
+        0.058823529411764705
+      ],
+      "1.0": [
+        0.8,
+        0.2
+      ],
+      "2.0": [
+        0.6666666666666666,
+        0.3333333333333333
+      ]
+    },
+    "limite": "Numeri assegnati; il confronto non prova robustezza fuori distribuzione."
+  },
+  "astensione": {
+    "punti": [
+      {
+        "soglia": 0.9,
+        "copertura": 0.375,
+        "rischio": 0.0
+      },
+      {
+        "soglia": 0.8,
+        "copertura": 0.625,
+        "rischio": 0.2
+      },
+      {
+        "soglia": 0.6,
+        "copertura": 1.0,
+        "rischio": 0.5
+      },
+      {
+        "soglia": 1.0,
+        "copertura": 0.0,
+        "rischio": null
+      }
+    ],
+    "copertura": [
+      0.125,
+      0.25,
+      0.375,
+      0.5,
+      0.625,
+      0.75,
+      0.875,
+      1.0
+    ],
+    "rischio": [
+      0.0,
+      0.0,
+      0.0,
+      0.25,
+      0.2,
+      0.3333333333333333,
+      0.42857142857142855,
+      0.5
+    ]
+  },
+  "conforme": {
+    "n": 9,
+    "alpha": 0.2,
+    "k": 8,
+    "q": 0.8,
+    "probabilita": [
+      0.6,
+      0.3,
+      0.1
+    ],
+    "insieme": [
+      0,
+      1
+    ],
+    "limite": "La garanzia marginale richiede scambiabilità fra calibrazione e nuovo esempio, modello e score fissati prima della calibrazione."
+  }
+}

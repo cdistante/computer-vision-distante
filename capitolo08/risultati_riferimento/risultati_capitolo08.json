@@ -1,0 +1,53 @@
+{
+  "capitolo": 8,
+  "natura": "esempi analitici e sintetici",
+  "dispositivo": "CPU",
+  "scalare": {
+    "loss": 8.0,
+    "gradienti": [
+      8.0,
+      4.0,
+      12.0
+    ],
+    "loss_dopo_sgd": 2.000000000000001
+  },
+  "mlp": {
+    "loss": 2.1269280110429727,
+    "probabilita": [
+      0.11920292202211755,
+      0.8807970779778823
+    ],
+    "errore_massimo_fd": 8.456657596411787e-11
+  },
+  "ottimizzazione": {
+    "sgd_eta_05": [
+      2.0,
+      1.0,
+      0.5,
+      0.25,
+      0.125,
+      0.0625,
+      0.03125,
+      0.015625,
+      0.0078125
+    ],
+    "sgd_eta_25": [
+      2.0,
+      -3.0,
+      4.5,
+      -6.75,
+      10.125,
+      -15.1875,
+      22.78125,
+      -34.171875,
+      51.2578125
+    ],
+    "adam_primo_passo": 1.9000000005
+  },
+  "dropout": {
+    "media": 2.0,
+    "varianza": 4.0,
+    "media_loss": 2.5,
+    "loss_della_media": 0.5
+  }
+}

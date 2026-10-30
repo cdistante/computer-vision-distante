@@ -1,0 +1,9 @@
+# Dati di recupero — risultati reali dell’archivio originale
+
+Questi file provengono dall’esecuzione di riferimento del 25 settembre 2026, non dallo studente che consegna. Servono per leggere le curve e completare la diagnosi se il computer non è pronto o il tempo macchina disponibile finisce. Non contengono le risposte alle domande né le soluzioni dei completamenti di codice, inclusi P01 e P02.
+
+Eseguire comunque i controlli e almeno un aggiornamento quando possibile. Se il kernel è disponibile, leggere `history_A.csv` e `history_B.csv` con `csv.DictReader`, oppure `risultati_A.json` e `risultati_B.json` con `json.loads`. I PNG si aprono direttamente. La tabella e i log riportano le misure reali; compilare F03/F04 e dichiarare in F05 quali risultati sono stati forniti nell’archivio originale. I checkpoint servono a ricaricare il forward dopo aver completato la classe in C10: usare `torch.load(..., map_location="cpu", weights_only=True)`, caricare la chiave `state_dict`, impostare eval e applicare il preprocessing salvato.
+
+Protocollo: Digits, stessi split L9; training 1077/validation 360, test escluso. Input/16 con media 0.304488923224234 e std 0.37547608213347905 del training. A con BN, B con Identity; 1922/1874 parametri, bias Conv False. Pesi comuni iniziali copiati, seed 20261022, loader reinizializzati, Adam lr 0.001, 30 epoche, batch 64. Checkpoint per massimo macro-F1 validation, prima epoca a parità esatta.
+
+Ambiente: Python 3.12.14, NumPy 2.3.5, PyTorch 2.14.0, macOS arm 64, CPU con un thread. I tempi nei JSON coprono training/valutazione/sonde ed escludono import, grafici, export: non sono benchmark universali né tempi complessivi di studio. Hash dati `972401a5680cf0a1c5ef60295fb915f4efbd51d7a39b35c0cfa39d73cc33ca1e`.

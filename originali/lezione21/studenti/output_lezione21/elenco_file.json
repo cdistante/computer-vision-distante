@@ -1,0 +1,82 @@
+[
+  {
+    "file": "01_corruzioni_appaiate.png",
+    "sha256": "bae4fe857c65d0f1cadcb1541d4839e405715b566534ad9d0f4c5456223da803",
+    "bytes": 87090
+  },
+  {
+    "file": "02_accuracy_corruzioni.png",
+    "sha256": "db045c433f6c2ee07372c9feca85f6246cf8bb04f737b9cd8e0573aefb7ad917",
+    "bytes": 47259
+  },
+  {
+    "file": "03_gruppi_supporto.png",
+    "sha256": "ec8f9fd5fc01240639777136b264c839bc6520e043cb50433ac939fd15de5281",
+    "bytes": 46815
+  },
+  {
+    "file": "04_effetto_mix.png",
+    "sha256": "624190f443c3e5e50b605a8257ef820821ba31edd9e76a658143e42552a3ce3e",
+    "bytes": 41120
+  },
+  {
+    "file": "05_entropia.png",
+    "sha256": "3a4c5727d399b07bb34158a688971a90e656c82e1132cfb4a42fb5af6f38b25a",
+    "bytes": 53334
+  },
+  {
+    "file": "06_nll_brier.png",
+    "sha256": "0193dde250c5d14dc102375777796f5d36afe5fae96044c3e167e68caa946a93",
+    "bytes": 48906
+  },
+  {
+    "file": "07_affidabilita_ece.png",
+    "sha256": "00919a04506e009469f154ca6340e53727d5da8ac67779edd49d3c4e68260895",
+    "bytes": 57278
+  },
+  {
+    "file": "08_temperatura.png",
+    "sha256": "19b541800e919e72fd677f209b9c001c4a1e4f5e0bd6523892f53b96990bb3b0",
+    "bytes": 33107
+  },
+  {
+    "file": "09_rischio_copertura.png",
+    "sha256": "9bd2b44a21bebabb571089c8fe4af7aa47dcf55268580b65c86175533041436f",
+    "bytes": 56742
+  },
+  {
+    "file": "10_benchmark_locale.png",
+    "sha256": "8b0c4bddcc2c2c985ea2df54e4d5feee5feba3d4f56d2af55b1de64f0692e22a",
+    "bytes": 54072
+  },
+  {
+    "file": "11_pareto_assegnato.png",
+    "sha256": "fd28f3e984bdc981a679a008482fc387075bff8b392db3996f0e7b067f477911",
+    "bytes": 68288
+  },
+  {
+    "file": "diagnostica_appaiata.csv",
+    "sha256": "174c7ee6df3888dbcefb9ac422cdb7446529829464507d0f77d87488a54c4bf4",
+    "bytes": 4873
+  },
+  {
+    "file": "manifesto.json",
+    "sha256": "2f39965ed7d8c0b607a9cc77a13347e41e22d5be5287548f09ed180cf8e3b2d4",
+    "bytes": 18057
+  },
+  {
+    "file": "rischio_copertura.csv",
+    "sha256": "ec59c630be2a3fa8adde6e0fdded991f7a1ffb9039385564488b71a7211f5f08",
+    "bytes": 237
+  },
+  {
+    "file": "risultati.json",
+    "sha256": "722697e765116fd84934bd89f4060f7bd140ef6e52e755449b39af8185c3892f",
+    "bytes": 3684
+  },
+  {
+    "file": "tempi_grezzi_ms.json",
+    "sha256": "1ceb187ae93323a1501faebeec82f29aac6e23dd0f27580b908258df4f87245b",
+    "bytes": 881
+  }
+]

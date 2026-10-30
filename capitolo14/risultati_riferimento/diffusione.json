@@ -1,0 +1,10 @@
+{
+  "media_teorica": 1.6,
+  "varianza_teorica": 0.5199999999999999,
+  "media_empirica_sintetica": 1.6042864949139615,
+  "varianza_empirica_sintetica": 0.5231163048449043,
+  "xt_scalare": 1.0,
+  "x0_stimato_scalare": 1.925,
+  "amplificazione_ab064": 0.75,
+  "amplificazione_ab004": 4.898979485566356
+}

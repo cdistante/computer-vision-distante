@@ -1,0 +1,9 @@
+numpy>=1.26
+matplotlib>=3.8
+pillow>=10
+torch>=2.2
+torchvision>=0.17
+ftfy==6.3.1
+regex>=2024.0
+tqdm>=4.60
+git+https://github.com/openai/CLIP.git@d05afc436d78f1c48dc0dbf8e5980a9d471f35f6

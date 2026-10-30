@@ -1,0 +1,13 @@
+{
+  "originale": {
+    "AbsRel": 1.0,
+    "RMSE_m": 2.6457513110645907,
+    "errore_log_invariante_scala": 0.0
+  },
+  "scala": 0.5,
+  "allineata": {
+    "AbsRel": 0.0,
+    "RMSE_m": 0.0,
+    "errore_log_invariante_scala": 0.0
+  }
+}

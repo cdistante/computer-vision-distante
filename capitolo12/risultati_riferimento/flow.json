@@ -1,0 +1,21 @@
+{
+  "pixel_validi": 154,
+  "errore_warp_max": 0.0,
+  "EPE_pixel": 1.0,
+  "flow_ridotto": [
+    1.0,
+    0.5
+  ],
+  "autovalori_normale": [
+    0.0,
+    14.0
+  ],
+  "soluzione_norma_minima": [
+    2.0,
+    0.0
+  ],
+  "soluzione_con_vincolo": [
+    2.0,
+    1.0
+  ]
+}

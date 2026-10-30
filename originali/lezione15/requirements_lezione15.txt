@@ -1,0 +1,3 @@
+numpy>=1.26
+ipython>=8
+# Colab include già queste dipendenze. Jupyter è necessario solo in locale.

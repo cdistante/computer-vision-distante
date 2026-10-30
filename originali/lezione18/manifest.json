@@ -1,0 +1,17 @@
+{
+  "course": "Computer Vision",
+  "lesson": 18,
+  "reference": "Corsa CPU locale FP32 realmente eseguita; DINOv3 non eseguito",
+  "sam_commit": "2b90b9f5ceec907a1c18123530e92e794ad901a4",
+  "sam_sha256": "7402e0d864fa82708a20fbd15bc84245c2f26dff0eb43a4b5b93452deb34be69",
+  "lraspp_sha256": "d234d4eae9d55d5f76de18b77cf0dc62c66fe5c5482758209d00f950c92bb280",
+  "reference_files": {
+    "FudanPed00063.npz": "ce47ec6c7e42c6c1380856fcbd7a55997ea2d8fb21cc64e636920d44514121a1",
+    "FudanPed00058.npz": "1611f9ab64daf5ac3cd7760243e4a5d13bf507a598be28a689b0e0eb71cf4087",
+    "metriche_finali.json": "eb28d0eb47625a498a7c41b6015af788e2719890ecb4088ff512044632ab0c01",
+    "PennPed00014.npz": "86ddbe8e8fdb3e9221e67d5e83483a1b52e0236b2e9256356def54a244012fcb",
+    "PennPed00035.npz": "13b5298bd42c02fcedd2b1ca759e1e14e8f78a3a6bf934ab87ad0fddfb7a2d43",
+    "PennPed00022.npz": "aa33fe4c2c7b31547428b4ab11e172d2659cafec6935faf9f3ba384b39aa144a",
+    "FudanPed00042.npz": "c98cacb978aa8ecd673a93af5567cec0bfb44334c1557402153989782a7be13b"
+  }
+}

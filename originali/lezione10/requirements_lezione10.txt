@@ -1,0 +1,6 @@
+# Ambiente di calcolo verificato con Python 3.12.14 su macOS arm64, CPU.
+torch==2.14.0
+numpy==2.3.5
+matplotlib==3.11.2
+# Interfaccia notebook: versione compatibile con il proprio ambiente.
+jupyterlab>=4,<5

@@ -1,0 +1,104 @@
+{
+  "source": "https://vision.middlebury.edu/stereo/data/scenes2014/zip/Adirondack-perfect.zip",
+  "description": "https://vision.middlebury.edu/stereo/data/scenes2014/",
+  "downloaded": "2026-09-12",
+  "source_files": [
+    {
+      "file": "im0.png",
+      "sha256": "b322bad57398336a2730ad4363b267dff2324adcdf0b8aef2a01f931aeaf5ab9",
+      "bytes": 6079855
+    },
+    {
+      "file": "im1.png",
+      "sha256": "aeacdae282f68f20ea7175640e061ecddab686886b4a43fe5d4eff255f27beaa",
+      "bytes": 6020197
+    },
+    {
+      "file": "disp0.pfm",
+      "sha256": "7f60d0734b9a00c8ac56db21a36a2193b67e4ddb02d84360c476c094574a03ff",
+      "bytes": 22901783
+    },
+    {
+      "file": "disp1.pfm",
+      "sha256": "606a2244efdcb34c4ab829680aef3ec42cac39bd1f42e4b5ed926ec1172cdbb0",
+      "bytes": 22901783
+    },
+    {
+      "file": "calib.txt",
+      "sha256": "eface1c113178399b8fc62470244cf4baea03a41304fc55ade487505e31604fe",
+      "bytes": 213
+    }
+  ],
+  "transformation": {
+    "dataset": "Middlebury 2014 Adirondack-perfect",
+    "width": 720,
+    "height": 497,
+    "scale": 0.25,
+    "K0": [
+      [
+        1040.30525,
+        0.0,
+        361.01925
+      ],
+      [
+        0.0,
+        1040.30525,
+        245.7965
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "K1": [
+      [
+        1040.30525,
+        0.0,
+        413.284
+      ],
+      [
+        0.0,
+        1040.30525,
+        245.7965
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "doffs": 52.26475,
+    "baseline_m": 0.17625200000000002,
+    "ndisp": 80,
+    "S": [
+      [
+        0.25,
+        0.0,
+        -0.375
+      ],
+      [
+        0.0,
+        0.25,
+        -0.375
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "resize": "INTER_AREA; coordinate pixel-center p_out=S p_in",
+    "ground_truth_sampling": "nearest sample at source center floor((u+0.5)/s), followed by disparity*s; no averaging across depth boundaries",
+    "distortion": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "already_rectified": true,
+    "seed": 8
+  },
+  "note": "Original data by Middlebury authors; derived teaching subset. Not an official Middlebury benchmark submission."
+}
