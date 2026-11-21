@@ -1,10 +1,10 @@
-# Avvio in Colab · Lezione 18
+# Avvio in Colab · Foundation Vision Studio
 
-1. Estrarre il pacchetto sul proprio computer e caricare `studenti/Foundation_Vision_Studio_CV2026_studenti.ipynb` in Colab.
-2. Scegliere CPU oppure una GPU CUDA disponibile. I pochi esempi sono eseguibili anche su CPU. C03 stampa il dispositivo scelto. Per forzare CPU inserire `os.environ['CV_DEVICE']='cpu'` dopo gli import in C03, prima della scelta del dispositivo.
-3. Eseguire C03 e, quando richiesto, caricare lo stesso ZIP studenti **in quel runtime**. La cartella dedicata è `/content/ComputerVision_Lezione18`; il manifest deve indicare la lezione 18. Il riuso funziona solo nella stessa VM. Un secondo notebook di setup può avere un'altra VM.
+1. Aprire il [notebook del capitolo 13 in Colab](https://colab.research.google.com/github/cdistante/computer-vision-distante/blob/main/originali/lezione18/studenti/Foundation_Vision_Studio_CV2026_studenti.ipynb). Per la dimostrazione facoltativa, leggere C39a ed eseguire C39b su CPU con NumPy e Matplotlib.
+2. Per il laboratorio con SAM 2.1, preparare i materiali nello stesso runtime con la cella indicata nelle [istruzioni del repository](README.md#google-colab).
+3. Scegliere CPU o una GPU CUDA compatibile. Eseguire C03 per verificare il dispositivo. Per forzare CPU, impostare la variabile di ambiente CV_DEVICE a cpu prima di eseguire C03.
 4. Eseguire C05 prima dell’esecuzione. Scarica circa 149 MiB SAM, 12.5 MiB LRASPP e l'archivio PennFudan. Le corse successive riusano la cache finché il runtime resta attivo. Codice SAM fissato al commit del manifest; Torch/Torchvision compatibili del runtime vengono conservati.
-5. Completare i TODO C09, C23 e C35 prima delle celle che li usano. Seguire i passaggi Cxx nelle figure. Cxx conta tutte le celle, non il numero di esecuzione del kernel.
+5. Completare i TODO C09, C23 e C35 prima delle celle che li usano. Seguire i passaggi Cxx nelle figure. Usare le etichette Cxx per trovare le celle di testo e codice.
 6. Dopo i risultati semantici e C12/C38, C40 salva la corsa completa, C42 scarica lo ZIP. Queste celle rifiutano uno stato incompleto: non si usano per un export parziale durante la pausa. Salvare anche il notebook dal menu File. Il disco della VM non è permanente.
 
 ## DINOv3 autorizzato

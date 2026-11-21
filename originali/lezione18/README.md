@@ -12,20 +12,27 @@ python -m pip install -r ../requirements_locale_riferimento.txt
 
 ## Google Colab
 
-Aprire il [notebook in Colab](https://colab.research.google.com/github/cdistante/computer-vision-distante/blob/v1.0.0/originali/lezione18/studenti/Foundation_Vision_Studio_CV2026_studenti.ipynb). Il solo caricamento del notebook non carica i materiali nel runtime. Per preparare questa distribuzione completa, eseguire prima una cella temporanea:
+Aprire il [notebook in Colab](https://colab.research.google.com/github/cdistante/computer-vision-distante/blob/main/originali/lezione18/studenti/Foundation_Vision_Studio_CV2026_studenti.ipynb). Il solo caricamento del notebook non carica i materiali nel runtime. Per preparare questa distribuzione completa, eseguire prima una cella temporanea:
 
 ```python
 from pathlib import Path
 import os, subprocess
 materiali = Path('/content/ComputerVision_Lezione18')
-if not (materiali / '.git').exists():
-    subprocess.run(['git', 'clone', '--depth', '1', '--branch', 'v1.0.0',
+if not materiali.exists() or not any(materiali.iterdir()):
+    subprocess.run(['git', 'clone', '--depth', '1', '--branch', 'main',
                     'https://github.com/cdistante/computer-vision-distante.git',
                     str(materiali)], check=True)
-os.chdir(materiali / 'originali/lezione18/studenti')
+notebook = materiali / 'originali/lezione18/studenti/Foundation_Vision_Studio_CV2026_studenti.ipynb'
+if not notebook.is_file() or '"l18-c39b"' not in notebook.read_text(encoding='utf-8'):
+    raise RuntimeError('Per caricare il laboratorio con C39b, usare un runtime nuovo.')
+os.chdir(notebook.parent)
 ```
 
 Installare le dipendenze solo se mancanti, usando il file requisiti e riavviando il runtime quando necessario. Eliminare poi la cella temporanea per conservare gli identificativi Cxx del laboratorio. La CPU rimane disponibile; una GPU compatibile può essere scelta secondo le istruzioni del notebook. I suoi tempi vanno misurati nella propria sessione. Le istruzioni Colab non attestano un’esecuzione misurata nel servizio: i riferimenti disponibili documentano il rispettivo ambiente originale, senza trasferire tempi CPU locali a GPU o cloud.
+
+## Simulazione di Object Multiplex
+
+C39a introduce la figura 13.16 del libro. C39b mostra come, quando A e B si incrociano, l’assegnazione per posizione cambia l’identità associata allo slot 1. I descrittori sintetici mantengono gli abbinamenti nel caso illustrato. Per la sola dimostrazione, aprire la copia del notebook in questa cartella, leggere C39a ed eseguire C39b in un runtime CPU con NumPy e Matplotlib. Il laboratorio sulle fotografie segue il percorso SAM 2.1.
 
 ## Acquisizione di dati e modelli
 
@@ -47,7 +54,7 @@ Le attribuzioni, le fonti dei dati e le licenze nei README delle sottocartelle d
 
 Computer Vision · Lezione 18. [Avvio Colab](Avvio_Colab.md), [notebook studenti](studenti/Foundation_Vision_Studio_CV2026_studenti.ipynb), [recupero leggero](recupero/Ripristino_risultati.ipynb), [HTML offline](recupero/Risultati_riferimento.html).
 
-45 celle totali, contando testo e codice. TODO C09 (coseno), C23 (IoU/Dice), C35 (unione maschere). Le soluzioni restano nella cartella docente, esclusa dallo ZIP studenti. C03 carica il pacchetto nello stesso runtime nella cartella Colab dedicata e controlla il manifest della lezione 18 prima di preparare il supporto. C05 scarica i dati/pesi ufficiali e verifica gli hash dei pesi. Dataset e checkpoint originali non sono inclusi nella distribuzione.
+47 celle totali, contando testo e codice. C39a e C39b formano la dimostrazione facoltativa. TODO C09 (coseno), C23 (IoU/Dice), C35 (unione maschere). Le soluzioni restano nella cartella docente, esclusa dallo ZIP studenti. C03 carica il pacchetto nello stesso runtime nella cartella Colab dedicata e controlla il manifest della lezione 18 prima di preparare il supporto. C05 scarica i dati/pesi ufficiali e verifica gli hash dei pesi. Dataset e checkpoint originali non sono inclusi nella distribuzione.
 
 Il protocollo usa sei immagini, SAM 2.1 Hiera tiny FP32 e LRASPP MobileNetV3, senza training locale. Il riferimento è realmente eseguito su CPU locale con un thread. CUDA può essere usata quando disponibile, ma tempi e differenze numeriche vanno misurati nella propria corsa. Le prove non equivalgono a un'esecuzione autenticata su Google Colab.
 

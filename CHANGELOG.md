@@ -1,5 +1,9 @@
 # Registro delle versioni
 
+## 21 novembre 2026 · Capitolo 13
+
+- Aggiunta la simulazione facoltativa di Object Multiplex (C39b) nel supplemento compatto del capitolo 13 e nel laboratorio esteso. L’esempio riprende la figura 13.16. Il laboratorio sulle fotografie usa SAM 2.1.
+
 ## 1.0.0 - 30 ottobre 2026
 
 - Diciotto laboratori estesi dalle dispense, con dati, helper, dipendenze e attribuzioni.
